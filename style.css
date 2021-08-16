@@ -1,0 +1,92 @@
+body{
+    background-color: black;
+    color:white;
+    background-image: url("chef.png");
+    background-repeat: no-repeat;
+    background-size:25rem;
+    height:50%;
+    background-position-y: 3rem;
+}
+h1{
+    text-align: center;
+}
+.container{
+    margin: 0rem auto;
+    text-align: center;
+}
+
+img{
+    width:400px;
+}
+#txtArea{
+    height:6rem;
+    width:40%;
+    display: block;
+    margin: 1rem auto;
+    padding:10px;
+    background:transparent;  
+    color:white;
+}
+#btn-translate{
+    background-color: black;
+    padding:1rem;
+    margin:1rem 0rem;
+    border-radius: 4rem ;
+    border: 1px solid pink;
+    color: white;
+    font-weight: bolder;
+    font-size: larger;
+    cursor: pointer;
+}
+.outputDiv{
+    border:1px solid grey;
+    width:40%;
+    height: 6rem;
+    display: block;
+    margin: 1rem auto;
+    padding:10px;
+    color:white;
+}
+footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding:2.5rem 0rem;
+    font-size:larger ;
+    font-weight: bolder;
+}
+@media only screen and (max-width: 600px) {
+    body{
+        background-size: 10rem;
+        background-position-y: 8rem;
+    }   
+    #txtArea{
+        height:4rem;
+        width:55%;
+        display: block;
+        margin-right:30px;
+      
+      padding:8px;
+    }
+    #btn-translate{
+        margin-left:70px;
+    }
+    .outputDiv{
+        height:4rem;
+        width:55%;
+       display: block;
+       margin-right:30px;
+    }
+    .container > p{
+        margin-left:70px;
+    }
+    footer{
+        font-size:medium ;
+        font-weight: bold;
+        
+    }
+
+    
+}
