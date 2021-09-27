@@ -1,7 +1,7 @@
 
 var txtArea = document.querySelector("#txtArea");
 var btnTranslate = document.querySelector("#btn-translate");
-var outputDiv= document.querySelector("#outputDiv");
+var outputDiv= document.querySelector(".output-div");
 
 var serverURL = "https://api.funtranslations.com/translate/yoda.json"
 
@@ -22,7 +22,8 @@ function clickHandler() {
     .then(json => {
         var translatedText = json.contents.translated;
         console.log(translatedText);
-        outputDiv.innerHTML = translatedText})
+        outputDiv.innerText = translatedText
+    })
     .catch(errorHandler);
 
 };
