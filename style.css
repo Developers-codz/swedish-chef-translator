@@ -38,7 +38,7 @@ img{
     font-size: larger;
     cursor: pointer;
 }
-.outputDiv{
+.output-div{
     border:1px solid grey;
     width:40%;
     height: 6rem;
